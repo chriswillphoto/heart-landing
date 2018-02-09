@@ -1,0 +1,28 @@
+.heart {
+  background-image: url('../hbeat.svg.png');
+  height: 400px;
+  width: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: hue-rotate(90deg);
+}
+
+.heart1 {
+  height: 400px;
+  width: auto;
+  position: fixed;
+  top: calc(50% - 200px);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.heart2 {
+  height: 400px;
+  width: auto;
+  filter: hue-rotate(180deg) drop-shadow(0 0 12px black);
+  position: fixed;
+  top: calc(50% - 200px);
+  left: 50%;
+  transform: translateX(-50%);
+}
