@@ -9,3 +9,5 @@ Can be viewed [here](https://chriswillphoto.github.io/heart-landing/)
 ## Usage
 
 Click anywhere in the window to make the heart beat
+
+Best experienced with headphones 
