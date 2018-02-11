@@ -1,5 +1,5 @@
 .heart {
-  background-image: url('../hbeat.svg.png');
+  background-image: url("../hbeat.svg.png");
   height: 400px;
   width: 400px;
   background-size: contain;
@@ -25,4 +25,26 @@
   top: calc(50% - 200px);
   left: 50%;
   transform: translateX(-50%);
+}
+
+.enlarge1 {
+  transform-origin: center;
+  animation: enlarge1 0.6s ease-in-out 1;
+}
+.enlarge2 {
+  transform-origin: center;
+  animation: enlarge2 0.6s ease-in-out 1;
+}
+
+@keyframes enlarge1 {
+  50% {
+    /* height: 500px; */
+    transform: scale(1.2, 1.2) translateX(-40%);
+  }
+}
+@keyframes enlarge2 {
+  50% {
+    /* height: 700px; */
+    transform: scale(2, 2) translateX(-25%);
+  }
 }
