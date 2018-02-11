@@ -20,7 +20,7 @@
 .heart2 {
   height: 400px;
   width: auto;
-  filter: hue-rotate(180deg) drop-shadow(0 0 12px black);
+  filter: hue-rotate(180deg) drop-shadow(0 0 14px black);
   position: fixed;
   top: calc(50% - 200px);
   left: 50%;
@@ -37,14 +37,24 @@
 }
 
 @keyframes enlarge1 {
+  25% {
+    transform: scale(1.2, 1.2) translateX(-40%);
+  }
+  40% {
+    transform: scale(1, 1) translateX(-50%);
+  }
   50% {
-    /* height: 500px; */
     transform: scale(1.2, 1.2) translateX(-40%);
   }
 }
 @keyframes enlarge2 {
+  25% {
+    transform: scale(2, 2) translateX(-25%);
+  }
+  40% {
+    transform: scale(1.2, 1.2) translateX(-35%);
+  }
   50% {
-    /* height: 700px; */
     transform: scale(2, 2) translateX(-25%);
   }
 }
