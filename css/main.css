@@ -28,13 +28,13 @@
   transform: translateX(-50%);
 }
 
-.enlarge1 {
+.animate .heart1 {
   transform-origin: center;
-  animation: enlarge1 0.6s ease-in-out 1;
+  animation: enlarge1 0.2s ease-in-out 1;
 }
-.enlarge2 {
+.animate .heart2 {
   transform-origin: center;
-  animation: enlarge2 0.6s ease-in-out 1;
+  animation: enlarge2 0.2s ease-in-out 1;
 }
 
 @keyframes enlarge1 {
